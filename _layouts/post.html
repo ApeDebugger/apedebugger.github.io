@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!--{% if page.banner %}
+	<img src="{{ page.banner }}"></img>
+{% endif %}-->
+<h1 align="justify"><font style="font-size: 35px; color: rgb(25,158,229);" face="Lato">{{ page.title }}</font></h1>
+{% if page.shortdesc %}
+	<shortdesc><font style="font-size: 21px; color: rgba(25,158,229,0.8);" face="Lato">{{ page.shortdesc }}</font></shortdesc>
+{% endif %}
+<p class="meta"><font color="Silver">Posted on {{ page.date | date_to_string  | date: "%b %-d, %Y" }} by </font><a href="/about"><font color="Grey">{{ page.author }}</font></a></p>
+<div class="post">
+	<font style="color: rgb(0,0,0,0.9);" face="Open Sans">{{ content }}</font>
+</div>

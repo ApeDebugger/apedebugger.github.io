@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"just",
+				"justify"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"li",
+				"li\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Shubham Mittal/datasite/about.md",
+		"/C/Users/Shubham Mittal/datasite/index.md",
+		"/C/Users/Shubham Mittal/datasite/_config.yml",
+		"/C/Users/Shubham Mittal/datasite/Gemfile",
+		"/C/Users/Shubham Mittal/datasite/_posts/2018-09-26-welcome-to-jekyll.markdown",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_site/index.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_config.yml",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/Gemfile",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/index.html",
+		"/C/Users/Shubham Mittal/cayman/_site/index.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_site/assets/main.css",
+		"/C/Users/Shubham Mittal/cayman/_config.yml",
+		"/C/Users/Shubham Mittal/cayman/_data/header.yml",
+		"/C/Users/Shubham Mittal/cayman/blog/index.html",
+		"/C/Users/Shubham Mittal/cayman/assets/css/style.scss",
+		"/C/Users/Shubham Mittal/cayman/Gemfile",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/Gemfile.lock",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/json/1Aug18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/25July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/23July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/26July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/27July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/29July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/30July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/Rawdata/28July18.json",
+		"/C/Users/Shubham Mittal/Desktop/1LearnApp/Data/GCP_24July18.json",
+		"/C/Users/Shubham Mittal/Downloads/GCP_24July18.json",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_includes/analytics.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/cv/index.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_layouts/default.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_layouts/post.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_posts/2018-04-03-nationalists-the-masked-anarchists-or-collectivists.md",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/blog/index.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/css/main.css",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/_posts/2018-01-23-Finally-I-have-a-site.md",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/about/index.html",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/blog/atom.xml",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/.git/description",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/.git/config",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/.git/HEAD",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/.git/index",
+		"/C/Users/Shubham Mittal/mygitpage/mittal-shubh.github.io/.gitignore"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".gitignore.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

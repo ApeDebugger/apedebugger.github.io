@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog
+---
+<div class="navbar">
+	<a href="/blog">Latest</a>
+	<a href="/blog/featured">Featured</a>
+	<!--<a href="/blog/latest"><h3>Recommended</h3></a>-->
+	<div class="dropdown">
+		<button class="dropbtn"><strong>More</strong> <i class="fa fa-caret-down"></i></button>
+		<div class="dropdown-content">
+			<a href="/blog/scraping"><strong>Scraping</strong></a>
+			<a href="/blog/cleansing">Cleansing</a>
+			<a href="/blog/analysis">Analysis</a>
+			<a href="/blog/modeling">Modeling</a>
+			<a href="/blog/visualization">Visualization</a>
+			<a href="/blog/interpretation">Interpretation</a>
+		</div>
+	</div> 
+</div>
+<dl class="posts">
+	{% for post in site.posts limit:10 %}
+	<dt>
+		<a href="{{ post.url }}" title="{{ post.title }}" style="font-size: 31px; color: rgb(25,158,229)">{{ post.title }}</a>
+	</dt>
+	<dd>
+		<p><span><font color="Silver">{{ post.date | date_to_string | date: "%b %-d, %Y" }} by </font><a href="/about"><font color="Grey">{{ post.author }}</font></a></span></p>
+		{% assign desc = post.content | split: '</p>' %}
+		<description><font style="color: rgb(0,0,0,0.9);" face="Open Sans">{{ desc.first }}</font></description>
+		<p style="padding-bottom: 1.5cm;"><a href="{{ post.url }}"><font style="color: rgb(128,128,128);">Read More</font></a></p>
+	</dd>
+	{% endfor %}
+</dl>

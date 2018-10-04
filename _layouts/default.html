@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script type="text/javascript">
+        var arr = ["Scraping", "Cleansing", "Analysis", "Modeling", "Visualization", "Interpretation"];
+        var i = 0;
+        function typeWriter(a) {
+          var number = a;
+          var txt = arr[number%5];
+          if (i < txt.length) {
+            document.getElementById("text").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, 50);
+          }
+        }
+        function newText(a) {
+          var number = a;
+          document.getElementById('text').innerText = arr[number%6];
+        }
+        function init() {
+          var a = 0;
+          newText(a);
+          var int = self.setInterval(function () {
+            newText(a++)
+          }, 1000);
+        }
+      </script>
+  </head>
+  <body onload="init()">
+    {%- include header.html -%}
+
+    {% if page.banner %}
+    <section style="text-align: center; background-image: url({{ page.banner }}); min-height: 100px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <!--<font style="color: rgb(0,0,0); font-size: 50px; opacity: 1;">{{ page.title }}</font>-->
+    </section>
+    {% endif %}
+
+    <section align="justify" class="main-content">
+      {{ content }}
+    </section>
+    
+    {%- include footer.html -%}
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+  </body>
+</html>
