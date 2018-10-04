@@ -4,20 +4,20 @@
 </h1>
 <h2 class="project-tagline" style="color: rgb(0,0,0,0.9);">{{ site.description | default: site.github.project_tagline }}</h2>
 {% if page.title == null %}
-	<a href="/webofdata" class="btn"><strong>Home</strong></a>
+	<a href="webofdata" class="btn"><strong>Home</strong></a>
 {% else %}
-	<a href="/webofdata" class="btn">Home</a>
+	<a href="webofdata" class="btn">Home</a>
 {% endif %}
 {% if page.title == "Blog" or page.layout == "post" %}
-	<a href="/webofdata/blog" class="btn"><strong>Blog</strong></a>
+	<a href="webofdata/blog" class="btn"><strong>Blog</strong></a>
 {% else %}
-	<a href="/webofdata/blog" class="btn">Blog</a>
+	<a href="webofdata/blog" class="btn">Blog</a>
 {% endif %}
 <!--<a href="/projects" class="btn">Projects</a>-->
 {% if (page.title == "Author") or (page.title == "CV") %}
-	<a href="/webofdata/about" class="btn"><strong>About Author</strong></a>
+	<a href="webofdata/about" class="btn"><strong>About Author</strong></a>
 {% else %}
-	<a href="/webofdata/about" class="btn">About Author</a>
+	<a href="webofdata/about" class="btn">About Author</a>
 {% endif %}
 <!--<h1 style="font-size: 50px; padding-top: 0.5cm; color: rgba(25,158,229,0.6);">{{ page.title }}</h1>-->
 </section>
