@@ -4,20 +4,20 @@
 </h1>
 <h2 class="project-tagline" style="color: rgb(0,0,0,0.9);">{{ site.description | default: site.github.project_tagline }}</h2>
 {% if page.title == null %}
-	<a href="." class="btn"><strong>Home</strong></a>
+	<a href="/" class="btn"><strong>Home</strong></a>
 {% else %}
-	<a href="." class="btn">Home</a>
+	<a href="/" class="btn">Home</a>
 {% endif %}
 {% if page.title == "Blog" or page.layout == "post" %}
-	<a href="./blog" class="btn"><strong>Blog</strong></a>
+	<a href="/blog" class="btn"><strong>Blog</strong></a>
 {% else %}
-	<a href="./blog" class="btn">Blog</a>
+	<a href="/blog" class="btn">Blog</a>
 {% endif %}
 <!--<a href="/projects" class="btn">Projects</a>-->
 {% if (page.title == "Author") or (page.title == "CV") %}
-	<a href="./about" class="btn"><strong>About Author</strong></a>
+	<a href="/about" class="btn"><strong>About Author</strong></a>
 {% else %}
-	<a href="./about" class="btn">About Author</a>
+	<a href="/about" class="btn">About Author</a>
 {% endif %}
 <!--<h1 style="font-size: 50px; padding-top: 0.5cm; color: rgba(25,158,229,0.6);">{{ page.title }}</h1>-->
 </section>
