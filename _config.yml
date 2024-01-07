@@ -18,8 +18,9 @@ author: Shubham Mittal
 email: mshubh12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog entailing the frequent visits to world's data-land & few other rabbitholes.
-baseurl: "/" # the subpath of your site, e.g. /blog
+domain: "mittal-shubh.github.io"
 url: "http://mittal-shubh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 # repository: https://github.com/mittal-shubh/mittal-shubh.github.io
 
 # Build settings
